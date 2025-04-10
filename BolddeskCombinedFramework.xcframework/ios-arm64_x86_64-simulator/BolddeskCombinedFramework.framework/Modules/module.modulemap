@@ -1,0 +1,6 @@
+framework module BolddeskCombinedFramework {
+  umbrella header "BolddeskCombinedFramework.h"
+  export *
+
+  module * { export * }
+}

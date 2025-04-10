@@ -1,0 +1,197 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "BolddeskCombinedFramework",
+    "printedName": "BolddeskCombinedFramework",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "BolddeskCombinedFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "BolddeskCombinedFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "FlutterPluginRegistrant",
+        "printedName": "FlutterPluginRegistrant",
+        "declKind": "Import",
+        "moduleName": "BolddeskCombinedFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BolddeskHome",
+        "printedName": "BolddeskHome",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(route:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BolddeskHome",
+                "printedName": "BolddeskCombinedFramework.BolddeskHome",
+                "usr": "s:25BolddeskCombinedFramework0A4HomeV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:25BolddeskCombinedFramework0A4HomeV5routeACSS_tcfc",
+            "mangledName": "$s25BolddeskCombinedFramework0A4HomeV5routeACSS_tcfc",
+            "moduleName": "BolddeskCombinedFramework",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25BolddeskCombinedFramework0A4HomeV4bodyQrvp",
+            "mangledName": "$s25BolddeskCombinedFramework0A4HomeV4bodyQrvp",
+            "moduleName": "BolddeskCombinedFramework",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25BolddeskCombinedFramework0A4HomeV4bodyQrvg",
+                "mangledName": "$s25BolddeskCombinedFramework0A4HomeV4bodyQrvg",
+                "moduleName": "BolddeskCombinedFramework",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:25BolddeskCombinedFramework0A4HomeV",
+        "mangledName": "$s25BolddeskCombinedFramework0A4HomeV",
+        "moduleName": "BolddeskCombinedFramework",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/mohammedismailsameer\/Documents\/XcodeProjects\/BolddeskFrameworkRelease\/BolddeskCombinedFramework\/BolddeskCombinedFramework\/Bolddesk.swift",
+      "kind": "StringLiteral",
+      "offset": 213,
+      "length": 16,
+      "value": "\"\/create_ticket\""
+    }
+  ]
+}
