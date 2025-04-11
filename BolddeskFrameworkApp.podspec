@@ -11,9 +11,9 @@ s.author           = { 'Boomibalan B' => 'boomibalan.b@syncfusion.com' }
 s.source           = { :git => 'https://github.com/boomibalanB/BolddeskFrameworkApp.git', :tag => s.version.to_s }
 # Download and extract frameworks at install time
 s.prepare_command = <<-CMD
-    unzip -o BolddeskCommonUI.xcframework.zip
+    unzip -o BolddeskCommon.xcframework.zip
   CMD
-s.vendored_frameworks = 'BolddeskCommonUI.xcframework',
+s.vendored_frameworks = 'BolddeskCommon.xcframework',
                         'BolddeskPlugin.xcframework',
                         'BolddeskCombinedFramework.xcframework'
 s.ios.deployment_target = '12.0'
